@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <div class="row">
+        <div class="header col-xs-12">
+            <h1> 
+                <span class="green">C</span> 
+                <span class="red">R</span> 
+                <span class="yellow">Y</span> 
+                <span class="orange">S</span> 
+                <span class="blue">T</span> 
+                <span class="green">A</span> 
+                <span class="yellow">L</span> 
+                <br>
+                <span class="red">C</span> 
+                <span class="green">O</span> 
+                <span class="yellow">L</span> 
+                <span class="pink">L</span> 
+                <span class="blue">E</span> 
+                <span class="green">C</span> 
+                <span class="yellow">T</span> 
+                <span class="pink">O</span> 
+                <span class="blue">R</span> 
+                
+                </h1>
+        </div>
+    </div>
+    <br>
+<div class="container">  
+    <div class="row">
+        <div class="col-sm-8 main-block1">
+                <h4>Instructions</h4>
+                <p>You will be given a random number to start the game. There are four crystals below. 
+                 By clicking on a crystal you will add a specific number to your score.
+                 You win if your total score matches the goal number or you lose if your score is higher than the goal number. 
+                 The value of the crystal is hidden from you before each game starts and it will change with each game. 
+                    </p>
+        </div>
+        <br>
+        <div class="col-sm-8 main-block2">
+            <div class="row">
+                
+                    <div class="col-md-4 col-md-offset-2 col-sm-4">
+                        <div class = "stat goal-number">
+                            <h3>Goal number:</h3>
+                            <div class="number" id="goalNumber"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class = "stat">
+                            <h3>Your total:</h3>
+                            <div class="number" id="userTotal"></div>
+                        </div>
+                    </div>
+                
+            </div> 
+            
+            <br>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-4 col-sm-10  ">
+                    <button class="Gem1 button"><img src="gem-4.jpeg" alt="gem-1"></button>
+                    <button class="Gem2 button"><img src="gem-2.jpeg" alt="gem-2"></button>
+                    <button class="Gem3 button"><img src="gem-3.jpg" alt="gem-3"></button>
+                    <button class="Gem4 button"><img src="gem-4.jpeg" alt="gem-4"></button>
+                </div>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2 col-sm-6">
+                    <div class = "stat">
+                        <h3>Wins:</h3>
+                        <div class="number" id="wins"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-sm-6">
+                    </div><div class = "stat">
+                        <h3>Losses:</h3>
+                        <div class="number" id="losses"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div> 
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+</html>
